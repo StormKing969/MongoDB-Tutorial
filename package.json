@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StormKing969/MongoDB-Tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StormKing969/MongoDB-Tutorial/issues"
+  },
+  "homepage": "https://github.com/StormKing969/MongoDB-Tutorial#readme",
+  "dependencies": {
+    "mongodb": "^4.3.1"
+  }
+}
