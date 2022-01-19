@@ -1,0 +1,42 @@
+db.products.insert(
+    {
+        _id: 3,
+        name: "Rubber",
+        price: 1.30,
+        stock: 43,
+        reviews: [
+            {
+                authorName: "King",
+                rating: 5,
+                review: "Best product that I found!!!"
+            },
+            {
+                authorName: "Sara",
+                rating: 3,
+                review: "Good but has some flaws"
+            }
+        ]
+    }
+)
+
+
+db.products.insert(
+    {
+        _id: 2,
+        name: "Pencil",
+        price: 0.80,
+        stock: 12,
+        reviews: [
+            {
+                authorName: "Dan",
+                rating: 4,
+                review: "Best product that I found but not big enough"
+            },
+            {
+                authorName: "Scarlet",
+                rating: 2,
+                review: "Broken within a few days of using it"
+            }
+        ]
+    }
+)

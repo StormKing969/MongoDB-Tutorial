@@ -1,0 +1,11 @@
+db.products.updateOne(
+    {
+        _id: 2
+    }, 
+
+    {
+        $set: {
+            stock: 12
+        }
+    }
+)

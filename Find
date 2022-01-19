@@ -1,0 +1,7 @@
+db.products.find(
+    {
+        price: {$gt: 1}
+    }
+)
+
+db.products.find()

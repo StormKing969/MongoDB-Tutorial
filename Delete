@@ -1,0 +1,5 @@
+db.products.deleteOne(
+    {
+        _id: 2
+    }
+)
