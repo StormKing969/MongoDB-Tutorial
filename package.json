@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/StormKing969/MongoDB-Tutorial#readme",
   "dependencies": {
-    "mongodb": "^4.3.1"
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.7"
   }
 }
